@@ -1,0 +1,22 @@
+{
+  "name": "drawchat",
+  "version": "0.9.0",
+  "description": "a simple websocket drawchat app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "daedalus1948@github.com",
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^2.1.0"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "websockets",
+    "node.js",
+    "es6",
+    "draw",
+    "chat"
+  ]
+}
