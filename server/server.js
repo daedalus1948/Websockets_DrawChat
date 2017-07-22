@@ -38,10 +38,6 @@ server1.on('connection', function(ws) {
 // --- end of code --- //
 
 // functions defined below
-function universalParse(data) {
-  var array = data.toString().split(':');
-  return array;
-}
 
 function pushToLogAndTemp(log, message) {
   //remove the eldest element (which is on the first position)
